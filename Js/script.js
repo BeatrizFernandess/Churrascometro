@@ -29,7 +29,7 @@ function calcular(){
 
 resultado.innerHTML = `<p class="result-info">Isto é tudo o que você vai precisar:</p><br>`
 resultado.innerHTML += `<div class="result"> 
-<img src="/image/beef.png"/> ${qdtTotalCarne / 1000} Kg de Carne</img>
+<img src="./image/beef.png"/> ${qdtTotalCarne / 1000} Kg de Carne</img>
 </div>
 `
 resultado.innerHTML += `
