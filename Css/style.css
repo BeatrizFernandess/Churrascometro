@@ -80,14 +80,14 @@ button{
 }
 
 #adultos{
-    background-image: url('/image/people.png');
+    background-image: url('./image/people.png');
     background-repeat: no-repeat;
     background-position-x: calc(100% - 10px);
     background-position-y: center;
 }
 
 #criancas{
-    background-image: url('/image/kid.png');
+    background-image: url('./image/kid.png');
     background-repeat: no-repeat;
     background-position-x: calc(100% - 10px);
     background-position-y: center;
@@ -95,7 +95,7 @@ button{
 }
 
 #duracao{
-    background-image: url('/image/timer.png');
+    background-image: url('./image/timer.png');
     background-repeat: no-repeat;
     background-position-x: calc(100% - 10px);
     background-position-y: center;
