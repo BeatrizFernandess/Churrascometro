@@ -87,7 +87,7 @@ button{
 }
 
 #criancas{
-    background-image: url('./image/kid.png');
+    background-image: url('/image/kid.png');
     background-repeat: no-repeat;
     background-position-x: calc(100% - 10px);
     background-position-y: center;
