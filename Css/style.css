@@ -145,3 +145,14 @@ footer p {
     align-items: center;
     margin-left: 150px;
 }
+
+@media (max-width: 1000px){
+    .result-info {
+        font-size: 15px;
+        margin-top: -270px;
+    }
+
+    .result {
+        font-size: 15px;
+    }
+}
