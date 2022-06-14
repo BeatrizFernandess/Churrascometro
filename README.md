@@ -6,6 +6,7 @@
 
 
 ## 📋 Sobre o Projeto
+<li>✔️ Responsivo
 <li>✔️ Sitema para calcular a quantidade de comida e bebida necessária para um churrasco
 <li>✔️ Carne - 400gr por pessoa + de 6horas - 650gr
 <li>✔️ Cerveja - 1200ml por Pessoa + 6 horas - 2000ml
