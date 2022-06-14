@@ -1,163 +1,153 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-image: url('https://blog.santamassa.com.br/wp-content/uploads/2019/10/308843-afinal-vinho-com-carne-vermelha-e-uma-boa-combinacao-1280x720.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  background-image: url("https://blog.santamassa.com.br/wp-content/uploads/2019/10/308843-afinal-vinho-com-carne-vermelha-e-uma-boa-combinacao-1280x720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.container{
-    background-color: rgba(1, 24, 37, 0.700);
-    text-align: center;
+.container {
+  background-color: rgba(1, 24, 37, 0.7);
+  text-align: center;
 }
-
-.title h1{
-    color: white;
-    font-size: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+header {
+  width: 100%;
 }
-
-.container2{
-    color: rgba(32, 223, 230, 0.897);
-    font-family: lu;
-    max-width: 500px;
-    height: 520px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 145px;
-    background-color: rgba(18, 25, 29, 0.966);
-    border-radius: 12px; 
+.title h1 {
+  color: white;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.container2 h1{
-    text-align: center;
-    border:rgb(4, 51, 78) solid 2px;
-    font-size: 35px;
-    border-radius: 13px;
+.container2 {
+  margin: 20px auto;
+  color: rgba(32, 223, 230, 0.897);
+  max-width: 500px;
+  height: 540px;
+  background-color: rgba(18, 25, 29, 0.966);
+  border-radius: 12px;
 }
 
-input[type=number]::-webkit-inner-spin-button { 
-    -webkit-appearance: none;
-    
-}
-input[type=number] { 
-   -moz-appearance: textfield;
-   appearance: textfield;
-
+.container2 h1 {
+  text-align: center;
+  border: rgb(4, 51, 78) solid 2px;
+  font-size: 35px;
+  border-radius: 13px;
 }
 
-input{
-    font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    width: 90%;
-    display: block;
-    padding: 10px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border-color: rgb(34, 32, 32);
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
 }
 
-button{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(9, 10, 17);
-    margin-top: 220px;
-    width: 100%;
-    height: 50px;
-    border: none;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
-    cursor: pointer;
-    border-radius: 3px;
-    color: white;
+input {
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  width: 90%;
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-color: rgb(34, 32, 32);
 }
 
-#adultos{
-    background-image: url('./image/people.png');
-    background-repeat: no-repeat;
-    background-position-x: calc(100% - 10px);
-    background-position-y: center;
+button {
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  background-color: rgb(9, 10, 17);
+  width: 80%;
+  margin: auto;
+  border: none;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  cursor: pointer;
+  border-radius: 3px;
+  color: white;
+  margin-top: 10px;
 }
 
-#criancas{
-    background-image: url('/image/kid.png');
-    background-repeat: no-repeat;
-    background-position-x: calc(100% - 10px);
-    background-position-y: center;
-
+#adultos {
+  background-image: url("./image/people.png");
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 10px);
+  background-position-y: center;
 }
 
-#duracao{
-    background-image: url('./image/timer.png');
-    background-repeat: no-repeat;
-    background-position-x: calc(100% - 10px);
-    background-position-y: center;
-
+#criancas {
+  background-image: url("/image/kid.png");
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 10px);
+  background-position-y: center;
 }
 
-#resultado{
-    font-size: 25px;
-    text-align: center;
-    display: block;
+#duracao {
+  background-image: url("./image/timer.png");
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 10px);
+  background-position-y: center;
 }
 
-footer{
-    margin-top: 180px;
-    height: 50px;
-    background-color: rgba(0, 0, 0, 0.616);
+#resultado {
+  font-size: 20px;
+  text-align: center;
+  display: block;
 }
 
-
+footer {
+  margin-top: 180px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.616);
+}
 
 footer p {
-    font-size: 25px;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-top: 10px;
-    text-align: center;
+  font-size: 25px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-top: 10px;
+  text-align: center;
 }
 
 .result-info {
-    font-size: 20px;
-    font-family: fantasy;
-    text-align: center;
-    color: rgba(7, 161, 250, 0.486);
-    width: 0 auto;
-    margin-top: -250px;
-   
-  }
+  font-size: 20px;
+  font-family: fantasy;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
 
-.result{
-    border: rgba(4, 51, 78, 0.589) solid 1px;
-    border-radius: 13px;
-    display: flex;
+.result {
+  border: rgba(4, 51, 78, 0.589) solid 1px;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .result img {
-    padding: 5px;
-    align-items: center;
-    margin-left: 150px;
+  padding: 5px;
 }
 
-@media (max-width: 1000px){
-    .result-info {
-        font-size: 15px;
-        margin-top: -270px;
-    }
-
-    .result {
-        font-size: 15px;
-        text-align: center;
-    }
-    
-    .title h1{
-        font-size: 20px;
-    }
+@media (max-width: 560px) {
+  .container2 {
+    width: 80%;
+  }
+  .container2 h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 425px) {
+  .result-info {
+    font-size: 16px;
+  }
+  #resultado {
+    font-size: 15px;
+  }
 }
