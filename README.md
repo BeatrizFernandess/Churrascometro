@@ -1,6 +1,7 @@
 # Churrascômetro [![ Badge](https://img.shields.io/badge/-Test_the_project_by_clicking_here-gray?style=flat-square&logo=&logoColor=white&link=https://https://https://https://BeatrizFernandess.github.io/Churrascometro/)](https://beadevbr.github.io/Churrascometro/)
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/80279567/115812361-a0693180-a3c7-11eb-959d-364d4b3f263a.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/80279567/173681452-3e8f9495-91e0-4a3a-9825-0e1d3080c9b8.gif)
+
 
 
 
